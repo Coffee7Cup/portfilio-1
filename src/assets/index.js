@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,11 +30,15 @@ import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
 
 import aptihealthWeb from "./projects/aptihealthWeb.png";
-import aptihealthApp from "./projects/aptihealthApp.png";
 import zealWeb from "./projects/zealWeb.png";
+import aptihealthApp from "./projects/aptihealthApp.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
 import rollApp from "./projects/rollApp.png";
+
+import kendriya from "./kendriya.svg";
+import gprec from "./gprec.png";  
+import mittal from "./mittal.png";
 
 export {
   logo,
@@ -72,4 +76,7 @@ export {
   zealApp,
   rollWeb,
   rollApp,
+  kendriya,
+  gprec,
+  mittal,
 };

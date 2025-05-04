@@ -6,7 +6,6 @@ import {
   navLinks,
   navigationPaths,
   personalInfo,
-  publicUrls,
 } from "../constants";
 
 const Navbar = () => {
@@ -46,17 +45,6 @@ const Navbar = () => {
             </li>
           ))}
 
-          <li
-            className={`text-secondary text-[18px] font-medium cursor-pointer hover:text-white`}
-          >
-            <a
-              href={publicUrls.resume}
-              download="Shridhar_Rai_Resume.pdf"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -88,17 +76,7 @@ const Navbar = () => {
                 </li>
               ))}
 
-              <li
-                className={`text-secondary text-[18px] font-medium cursor-pointer hover:text-white`}
-              >
-                <a
-                  href={publicUrls.resume}
-                  download="Shridhar_Rai_Resume.pdf"
-                  target="_blank"
-                >
-                  Resume
-                </a>
-              </li>
+    
             </ul>
           </div>
         </div>

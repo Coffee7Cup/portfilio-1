@@ -17,11 +17,9 @@ import {
   java,
   mysql,
   git,
-  crmnext,
-  nickelfox,
-  newgen,
-  skillrisers,
-  proximus,
+  kendriya,
+  gprec,
+  mittal,
   aptihealthWeb,
   aptihealthApp,
   zealWeb,
@@ -50,7 +48,7 @@ export const navLinks = [
   },
   {
     id: navigationPaths.contact,
-    title: "Contact",
+    title: "Globe",
   },
 ];
 
@@ -95,20 +93,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Next JS",
-    icon: nextJs,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Angular",
-    icon: angular,
   },
   {
     name: "Node JS",
@@ -135,72 +125,44 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
-    company_name: "Crmnext",
-    company_website: "https://www.businessnext.com/crm",
-    icon: crmnext,
+    company_name: "Mittel Alliyance",
+    company_website: "https://www.mittelalliyance.com/", // Replace with actual if different
+    icon: mittal, // You should define this icon
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "Jul 2023 - Present",
     points: [
-      "Developed Flow and Layout Designers for HDFC, PNB, IOB, and Utkarsh Bank.",
-      "Boosted team efficiency by 50% by implementing monorepo architecture and reusable Design-System.",
-      "Integrated GenAI models to automate flow creation from user prompts, eliminating manual configuration efforts.",
-      "Integrated unit testing with 80% code coverage, enhancing code reliability and reducing bugs.",
+      "Contributed to the development of scalable web solutions for client-facing platforms.",
+      "Collaborated closely with cross-functional teams to deliver robust product features.",
+      "Improved frontend performance and integrated third-party services for better user experience.",
+      "Wrote clean, maintainable code and participated in peer reviews to ensure code quality.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
+    title: "Student Developer",
+    company_name: "G. Pulla Reddy Engineering College",
+    company_website: "https://www.gprec.ac.in/",
+    icon: gprec, // Define this icon
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Nov 2023",
+    date: "Aug 2019 - May 2023",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built multiple mini-projects and a final-year capstone project using React.js and Node.js.",
+      "Participated in coding contests and technical fests, honing problem-solving skills.",
+      "Actively collaborated in project teams and contributed to Git-based development workflows.",
+      "Learned and applied software engineering principles through academic and extracurricular projects.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
+    title: "Student",
+    company_name: "Kendriya Vidyalaya",
+    company_website: "https://kvsangathan.nic.in/",
+    icon: kendriya, // Define this icon
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
+    date: "Until 2019",
     points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
-    icon: skillrisers,
-    iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
-    points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
-    points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
+      "Built a strong academic foundation in mathematics, computer science, and communication skills.",
+      "Participated in inter-school coding and quiz competitions.",
+      "Laid the groundwork for future programming and logical thinking abilities.",
+      "Maintained consistent academic performance while exploring tech interests.",
     ],
   },
 ];
@@ -227,119 +189,13 @@ const projects = [
     image: aptihealthWeb,
     hosted_link: "https://www.aptihealth.com/",
   },
-  {
-    name: "Aptihealth App",
-    description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendbird",
-        color: "green-text-gradient",
-      },
-      {
-        name: "twilio",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
-  },
-  {
-    name: "Zeal Web",
-    description:
-      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealWeb,
-    hosted_link: "https://getzeal.co/",
-  },
-  {
-    name: "Zeal App",
-    description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendgrid",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealApp,
-    hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
-  },
-  {
-    name: "Roll Web",
-    description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "formik",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
-  },
-  {
-    name: "Roll App",
-    description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
-    tags: [
-      {
-        name: "react-native-web",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "storybook",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollApp,
-    hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
-  },
+  
 ];
 
 const personalInfo = {
-  name: "Shridhar",
-  fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
+  name: "YASH",
+  fullName: "Yashwanth sai",
+  email: "maddysai9848@gmail.com",
   role: "Software Developer",
   about: `I'm a skilled software developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js, React-naitve,
@@ -352,23 +208,6 @@ const personalInfo = {
   with different technologies, and manage projects effectively.`,
 };
 
-const publicUrls = {
-  resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
-  socialProfiles: {
-    linkedin: {
-      title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
-      icon: linkedIn,
-    },
-    github: {
-      title: "github",
-      link: "https://github.com/shridharrai",
-      icon: github,
-    },
-  },
-};
-
 export {
   services,
   technologies,
@@ -376,5 +215,4 @@ export {
   projects,
   navigationPaths,
   personalInfo,
-  publicUrls,
 };
